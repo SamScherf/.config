@@ -1,3 +1,11 @@
+" Start vim plug
+call plug#begin('~/.vim/plugged')
+
+" File browser
+Plug 'preservim/nerdtree'
+
+call plug#end()
+
 " General Vim Config
 set encoding=utf-8
 set number
@@ -15,3 +23,6 @@ colorscheme molokai
 set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+
+" Nerdtree config
+map <C-n> :NERDTreeToggle<CR>
