@@ -14,8 +14,18 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
+# Set base directories
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_STATE_HOME=$HOME/.local/state
+export XDG_DATA_DIRS=/usr/local/share:/usr/share
+export XDG_CONFIG_DIRS=/etc/xdg
 
-# Put your fun stuff here.
+# Fix various programs
+export HISTFILE="$XDG_STATE_HOME"/bash/history
+
+# Set default editor
 export EDITOR='vim'
 export VISUAL='vim'
 set -o vi
