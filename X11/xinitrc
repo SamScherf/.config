@@ -1,5 +1,5 @@
 # Start Xmodmap
-exec xmodmap ~/.Xmodmap &
+exec xmodmap $XDG_CONFIG_HOME/xmodmap/config &
 
 # Start xkeybinds
 exec xbindkeys -f $XDG_CONFIG_HOME/xbindkeys/config &
