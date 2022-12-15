@@ -4,6 +4,9 @@ call plug#begin('~/.vim/plugged')
 " File browser
 Plug 'preservim/nerdtree'
 
+" Language server
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 
 " General Vim Config
