@@ -2,7 +2,7 @@
 exec xmodmap ~/.Xmodmap &
 
 # Start xkeybinds
-exec xbindkeys &
+exec xbindkeys -f $XDG_CONFIG_HOME/xbindkeys/config &
 
 # Start slstatus
 exec slstatus &
