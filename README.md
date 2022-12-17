@@ -3,6 +3,7 @@
 ## Dependencies
 
 - vim-plug
+- yarn
 
 ## Usage
 
