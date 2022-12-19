@@ -2,6 +2,8 @@
 
 ## Dependencies
 
+- vim-plug
+- yarn
 - java17
 
 ## Usage
