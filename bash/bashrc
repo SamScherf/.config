@@ -28,6 +28,8 @@ export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc  # xinit
 alias start="startx $XDG_CONFIG_HOME/X11/xinitrc"
 
 # Set default editor
-export EDITOR='vim'
-export VISUAL='vim'
+export EDITOR='nvim'
+export VISUAL='nvim'
 set -o vi
+
+alias vim='nvim'
