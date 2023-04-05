@@ -9,3 +9,6 @@ XF86AudioLowerVolume
 # Rotate Screen
 "/bin/bash $XDG_CONFIG_HOME/X200t/rotate_screen_cw.sh"
 XF86TaskPane
+
+"/bin/bash $XDG_CONFIG_HOME/X200t/rotate_screen_ccw.sh"
+XF86RotateWindows

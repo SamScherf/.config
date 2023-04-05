@@ -8,26 +8,26 @@ case "$rotation" in
     normal)
     # rotate to the left
     xrandr --output LVDS1 --rotate left
-    xsetwacom set "Serial Wacom Tablet WACf004 stylus" rotate ccw
-    xsetwacom set "Serial Wacom Tablet WACf004 eraser" rotate ccw
+    xsetwacom set "Wacom Serial Penabled Pen stylus" rotate ccw
+    xsetwacom set "Wacom Serial Penabled Pen eraser" rotate ccw
     ;;
     left)
     # rotate to inverted
     xrandr --output LVDS1 --rotate inverted
-    xsetwacom set "Serial Wacom Tablet WACf004 stylus" rotate half
-    xsetwacom set "Serial Wacom Tablet WACf004 eraser" rotate half
+    xsetwacom set "Wacom Serial Penabled Pen stylus" rotate half
+    xsetwacom set "Wacom Serial Penabled Pen eraser" rotate half
     ;;
     # rotate to right
     inverted)
     xrandr --output LVDS1 --rotate right
-    xsetwacom set "Serial Wacom Tablet WACf004 stylus" rotate cw
-    xsetwacom set "Serial Wacom Tablet WACf004 eraser" rotate cw
+    xsetwacom set "Wacom Serial Penabled Pen stylus" rotate cw
+    xsetwacom set "Wacom Serial Penabled Pen eraser" rotate cw
     ;;
     # rotate to normal
     right)
     xrandr --output LVDS1 --rotate normal
-    xsetwacom set "Serial Wacom Tablet WACf004 stylus" rotate none
-    xsetwacom set "Serial Wacom Tablet WACf004 eraser" rotate none
+    xsetwacom set "Wacom Serial Penabled Pen stylus" rotate none
+    xsetwacom set "Wacom Serial Penabled Pen eraser" rotate none
     ;;
 
 esac
