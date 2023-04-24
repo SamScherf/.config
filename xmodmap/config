@@ -1,3 +1,7 @@
 !Remap Left/Right to Page up/Down
 keycode 166 = Prior
 keycode 167 = Next
+
+!Remap top screen button to arrow keys for comics
+keycode 160 = Right
+keycode 149 = Left
