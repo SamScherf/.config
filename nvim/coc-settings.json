@@ -1,3 +1,10 @@
 {
-	"suggest.noselect": true
+	"suggest.noselect": true,
+	"java.configuration.runtimes": [
+  		{
+    		"name": "JavaSE-11",
+    		"path": "/usr/lib/jvm/java-11-openjdk",
+		"default": true
+  		}
+	]
 }

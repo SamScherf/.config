@@ -14,6 +14,9 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
+# Fix scaling for kdenlive
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+
 # Set base directories
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
@@ -32,4 +35,7 @@ export EDITOR='nvim'
 export VISUAL='nvim'
 set -o vi
 
-alias vim='nvim'
+# Fix java GUIs
+_JAVA_AWT_WM_NONREPARENTING=1
+
+alias vim='nvim -p'
