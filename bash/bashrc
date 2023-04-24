@@ -36,6 +36,6 @@ export VISUAL='nvim'
 set -o vi
 
 # Fix java GUIs
-_JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 alias vim='nvim -p'
